@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url(fonts/NunitoSans-Regular.ttf);
+}
+
+* {
+    font-family: 'Nunito Sans';
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: #F8FFFD;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+}
+
+.top img {
+    width: 39px;
+    height: 41px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count {
+    background-color: white;
+    display: flex;
+    width: 206px;
+    height: 100px;
+    box-shadow: 0px 4px 32px #A6CBD4;
+    border-radius: 16px;
+    align-items: center;
+    margin: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.cimg img {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+.ctext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.zd {
+    font-weight: 700;
+    font-size: 19px;
+}
+.num {
+    font-weight: 700;
+    font-size: 32px;
+    background: linear-gradient(90deg, #9CE0AF 6.28%, #A6CBD4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.form-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input[type=submit] {
+    background: linear-gradient(90deg, #A6CBD4 0%, #9CE0AF 100%);
+    border-radius: 8px;
+    width: 329px;
+    height: 36px;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+    border: 0px;
+}
+
+input[type=text] {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px #A6CBD4;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    width: 324px;
+    height: 36px;
+    border: 0px;
+}
+
+input[type=email] {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px #A6CBD4;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 324px;
+    height: 36px;
+    border: 0px;
+}
+
+input[type=password] {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px #A6CBD4;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    width: 324px;
+    height: 36px;
+    border: 0px;
+}
+
+#rayon {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px #A6CBD4;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    width: 324px;
+    height: 36px;
+    border: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
