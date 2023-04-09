@@ -85,6 +85,7 @@ body {
 .form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .radio {
@@ -148,4 +149,28 @@ input[type=password] {
 a {
     color: black;
     text-decoration: none;
+}
+
+.radio {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px #A6CBD4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.rado2 {
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.rado1 {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.formtext {
+    margin-bottom: 20px;
 }
