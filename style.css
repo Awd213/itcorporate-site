@@ -174,3 +174,57 @@ a {
 .formtext {
     margin-bottom: 20px;
 }
+
+.image img {
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle img {
+    height: 200px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px #A6CBD4;
+    border-radius: 36px;    
+    width: 900px;
+    height: 267px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.fio-name {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.fio img {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.region {
+    margin-top: 15px;
+}
+
+.region-name {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.email {
+    margin-right: 210px ;
+}
+
+.email-name {
+    font-weight: 700;
+}
